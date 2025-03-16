@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+header {
+    margin-top: 10 px;
+    background-color: #170042;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+.project {
+    margin-bottom: 20px;
+}
+.project h3 {
+    margin-top: 0;
+}
+/*.contenu {
+    display: flex;
+    align-items: center;
+}
+.texte {
+    flex: 1;
+}*/
+
+.image {
+    width: auto;
+    height: 600px;
+    margin-left: 20px;
+    border: 2px solid #333;
+
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: scroll;
+    overflow-y: scroll; /* Ajoute un curseur de défilement vertical */
+    max-height: 300px; /* Limite la hauteur du cadre */
+    max-width: 900px; /* Limite la largeur du cadre*/
+    border-radius: 10px;
+    
+}
+code {
+    font-family: "Courier New", Courier, monospace;
+    color: #39ac22;
+    text-align: right;
+    border-radius: 10px;
+}
+button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+
+/* Style du cadre du carrousel */
+.carousel {
+    position: relative;
+    max-width: 800px; /* Ajustez la largeur selon vos besoins */
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Conteneur des images */
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Style des images */
+.carousel-images img {
+    width: 100%;
+    display: none; /* Cache toutes les images par défaut */
+    border-radius: 10px;
+}
+
+/* Affiche l'image active */
+.carousel-images img.active {
+    display: block;
+}
+
+/* Style des boutons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

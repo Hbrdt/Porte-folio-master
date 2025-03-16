@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styleP.css">
+    <script src="carrou.js"></script>
+</head>
+<body>
+    <?php include 'navigation.php'; ?>
+    <main>
+    <header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Je suis Hugo Bourdet, <strong>étudiant en 3e année de licence professionnelle des métiers de la protection et de la gestion de l'environnement (MPGE, nouvellement CTSIG) à l'université Paris 1 Panthéon-Sorbonne.</strong> Avant cela, j’ai suivi un cursus en géographie en effectuant deux années de licence en géographie et aménagement du territoire à Paris 1 Panthéon-Sorbonne. 
+Cette 3e année a été pour moi l'occasion d'approfondir mes connaissances et ma maîtrise des outils SIG. Elle m’a également permis d'appliquer mes acquis sur le terrain de manière concrète grâce à <strong>mon alternance chez ENEDIS en tant que géomaticien.</strong> Aujourd'hui, je suis à la <strong>recherche d'un master me permettant d’approfondir mes connaissances en géomatique et d’enrichir mes analyses.</strong> Cette page est la démonstration de mes compétences et des connaissances que j’ai acquises au cours de mon cursus en géomatique et en géographie.
+</p>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences & Outils</h2>
+        <ul>
+            <li>Maîtrise des logiciels SIG : QGIS, ArcGIS, FME (ETL), GSA</li>
+            <li>Langages de programmation : Python, SQL, HTML, PHP, CSS, JavaScript pour le web mapping</li>
+            <li>Bases de données spatiales : PostGIS, PostgreSQL</li>
+            <li>Outils de télédétection et traitement d’images satellitaires : ENVI</li>
+        </ul>
+    </section>
+
+    <section id="projets">
+        <h2>Projets & Réalisations</h2>
+        <div class="project">
+            <h3>Les religions dans le Monde.</h3>
+        </div>
+        <div class ="contenu">
+            <div class = "texte">
+                <p><strong>Contexte :</strong> Ce projet cartographique était le rendu de fin de semestre de deuxième année de licence de géographie dans la matière Cartographie. L'objectif était de réaliser une planche cartographique ayant pour thème les religions dans le monde.</p>
+                <p><strong>Méthodologie :</strong> Les données proviennes d'un article de National Géographic publié en 2010 et d'un épisode du dessous des cartes d'Arte publié en 2007. Ce projet tourne autour du découpage vectorielle et de la superpositon de différentes couches il a été réalisé sur l'outil DAO Inkscape et une partie (la partie statistique sur Magrit).</p>
+                <p><strong>Résultats :</strong></p>
+                    <img src="Porte_folio\Carte\Carte_religion.jpg" alt = "Carte du projet" class = "image">
+                <p><strong>Lien :</strong> <a href="https://drive.google.com/file/d/100VxxSZ8GSgf_1KWZwDdvKcPgsluuIPe/view?usp=drive_link">Voir le projet</a></p>
+            </div>   
+        </div>       
+<br>        
+        <div class="project">
+            <h3>Atlas des risques naturels Comunauté de Commune Coeur de Nacre.</h3>
+        </div>
+        <div class ="contenu">
+            <div class = "texte">
+                <p><strong>Contexte :</strong> Cet atlas cartographique est un rendu de fin de semestre de deuxième année de licence de géographie dans la matière SIG, réalisé en binôme. L'objectif principal était de produire un dossier mettant en valeur les risques auxquels sont exposés certains EPCI en Normandie. Notre choix s'est porté sur la CC Cœur de Nacre en raison de sa proximité avec le littoral, qui constituait pour nous un axe d'étude intéressant. Je me suis occupé de la partie technique, et mon binôme de la partie recherche et identification des risques potentiels.</p>
+                <p><strong>Méthodologie :</strong> L'analyse à été faites sur QGIS à partir de la BDtopo et de plusieurs sources scientifique d'étude. J'ai un traitement géographique simple a base d'intersection, de buffer et de selection attributaires.</p>
+                <p><strong>Résultats :</strong> Première page de couverture, le reste est diponible en suivnat le lien en dessous</p>
+                    <img src="Porte_folio\Carte\DM2.jpg" alt = "Première page de l'atlas" class = "image">
+                <p><strong>Lien :</strong> <a href="https://drive.google.com/file/d/1x5E7_ytGOv4e0A1Dhndx6yXIrKzdvkB9/view?usp=drive_link">Voir le projet</a></p>
+            </div>
+        </div>
+<br>    
+        <div class = "project">
+            <h3>Le risque inondation en Ile-de-France</h3>
+        </div>
+        <div class = "contenu">
+            <div class="texte">
+                <p><strong>Contexte :</strong> Cette carte a été réalisée sur QGIS. Il s’agit d’un devoir de validation des acquis qui m’a valu la note de 18/20. Différents traitements géographiques basiques ont été effectués. À la suite de ce projet, nous avons mené une étude 3D plus précise sur les hauteurs d’eau et des bâtiments afin de cartographier les zones inondables.</p>
+                <p><strong>Méthodologie :</strong> J'ai principalement utilisé les données de géorisque sur les inondations et celles de la BDtopo pour les informations sur le bati.le tout à été réalisé sur QGIS.</p>
+                <p><strong>Résultats :</strong></p>
+                    <img src="Porte_folio\Carte\Inondation_idf.jpg" alt = "Carte du projet" class = "image">
+                <p><strong>Lien :</strong> <a href="https://drive.google.com/file/d/1OjEhWkuzazZFohMZjEnV0oV3hGdRCrLr/view?usp=drive_link">Voir le projet</a></p>
+            </div>
+        </div>
+<br>
+        <div class = "project">
+            <h3>Carte de localisation de Combs-la-Ville</h3>
+        </div>
+        <div class = "contenu">
+            <div class = "texte">
+                <p><strong>Contexte :</strong>Ce projet cartographique est un projet que j’ai débuté au début de l’année 2025 dans le cadre de mes cours sur ArcGIS Pro. J’ai pris la décision d’aller plus loin dans sa réalisation et de créer un véritable plan de ville. Le projet est toujours actif : je suis actuellement en train de prendre contact avec la mairie pour proposer ce plan et la mise à jour du plan communal.</p>
+                <p><strong>Méthodologie :</strong> Cette carte a été réalisé avec Arcgis pro et les données de la BDtopo uniquement.</p>
+                <p><strong>Résultats :</strong></p>
+                    <img src="Porte_folio\Carte\CLV.jpg" alt = "Carte du projet" class = "image">
+                <p><strong>Lien :</strong> <a href="https://drive.google.com/file/d/1j4Ii-qu_HLX4a3Kt-xHezF0ra3PiWw4l/view?usp=drive_link">Voir le projet</a></p>
+            </div>
+        </div>
+<br>
+            <h3>Script d'analyse spatial PyQGIS</h3>
+                <p><strong>Contexte :</strong> Ce projet s'inscrit dans le cadre d'un exercice ayant pour volonté d'automatiser un processus d'analyse spatiale en faisant des intersections de couches </p>
+                <p><strong>Méthodologie :</strong> L'utilisateur rentre 4 couches QGIS sur lesquelles seront fait des buffers et des intersections. Cela marche pour tout type de géométrie polygones, polylignes, points.</p>
+                <p><strong>Résultats :</strong></p> 
+            <pre><code>
+                    &lt;from qgis.PyQt.QtCore import QCoreApplication
+                from qgis.core import (QgsProcessing,
+                                    QgsFeatureSink,
+                                    QgsProcessingException,
+                                    QgsProcessingAlgorithm,
+                                    QgsProcessingParameterFeatureSource,
+                                    QgsProcessingParameterFeatureSink,
+                                    QgsProcessingParameterVectorDestination,
+                                    QgsProcessingParameterDistance)
+                from qgis import processing
+
+
+                class ZoneHabitationAlgorithm(QgsProcessingAlgorithm):
+                    """
+                    Retourne les objets d'une couche à proximité d'une autre couche.
+                    """
+                    """
+                    This is an example algorithm that takes a vector layer and
+                    creates a new identical one.
+
+                    It is meant to be used as an example of how to create your own
+                    algorithms and explain methods and variables used to do it. An
+                    algorithm like this will be available in all elements, and there
+                    is not need for additional work.
+
+                    All Processing algorithms should extend the QgsProcessingAlgorithm
+                    class.
+                    """
+
+                    # Constants used to refer to parameters and outputs. They will be
+                    # used when calling the algorithm from another algorithm, or when
+                    # calling from the QGIS console.
+
+                    OUTPUT = 'OUTPUT'  # couche en sortie
+                    SOURCE = 'SOURCE'  # couche qui sera intersectée:
+                    GARE = 'GARE_SNCF'  # couche qui servira à créer le buffer 
+                    METRO = 'METRO'  # couche qui servira à créer le buffer 
+                    PISCINES = 'PISCINES'  # couche qui servira à créer le buffer 
+                    ESPACES_VERTS = 'ESPACES_VERTS'  # couche qui servira à créer le buffer 
+                    
+                    
+                    def tr(self, string):
+                        """
+                        Returns a translatable string with the self.tr() function.
+                        """
+                        return QCoreApplication.translate('Processing', string)
+
+                    def createInstance(self):
+                        return ProximiteAlgorithm()
+
+                    def name(self):
+                        """
+                        Returns the algorithm name, used for identifying the algorithm. 
+                        """
+                        return 'Zone_habitation'
+
+                    def displayName(self):
+                        """
+                        Returns the translated algorithm name, which should be used for any
+                        user-visible display of the algorithm name.
+                        """
+                        return self.tr('Zone idéale')
+                    def group(self):
+                        """
+                        Returns the name of the group this algorithm belongs to. This string
+                        should be localised.
+                        """
+                        return self.tr('Parigoooooooo AH oui et au fait il faut que toutes les couches soient dans la même projection parce que flemme de dev un truc de plus la bise :)')
+
+                    def group(self):
+                        """
+                        Returns the name of the group this algorithm belongs to. This string
+                        should be localised.
+                        """
+                        return self.tr('Scripts PyQGIS')
+
+                    def groupId(self):
+                        """
+                        Returns the unique ID of the group this algorithm belongs to. This
+                        string should be fixed for the algorithm, and must not be localised.
+                        The group id should be unique within each provider. Group id should
+                        contain lowercase alphanumeric characters only and no spaces or other
+                        formatting characters.
+                        """
+                        return 'scriptspyqgis'
+
+                    def initAlgorithm(self, config=None):
+                        """
+                        Initialisation de l'algorithme: définition des
+                        paramètres en entrée et en sortie
+                        """
+
+                        # Données source
+                        self.addParameter(
+                            QgsProcessingParameterFeatureSource(
+                                self.SOURCE,
+                                self.tr('Couche d\'intérêt'),
+                                [QgsProcessing.TypeVectorAnyGeometry]
+                            )
+                        )
+                        
+                        # Données superposées GARES
+                        self.addParameter(
+                            QgsProcessingParameterFeatureSource(
+                                self.GARES,
+                                self.tr('Couche tampon'),
+                                [QgsProcessing.TypeVectorAnyGeometry]
+                            )
+                        )
+                            
+                        # Distance du tampon 
+                        self.addParameter(
+                            QgsProcessingParameterDistance(
+                                'BUFFERDIST1',
+                                self.tr('Distance du tampon'),
+                                defaultValue = 1000.0,
+                                # Make distance units match the INPUT layer units:
+                                parentParameterName='GARES'
+                            )
+                        )
+                        
+                        # Données superposées METRO
+                        self.addParameter(
+                            QgsProcessingParameterFeatureSource(
+                                self.METRO,
+                                self.tr('Couche sur laquelle sera faite le tampon'),
+                                [QgsProcessing.TypeVectorAnyGeometry]
+                            )
+                        )
+                            
+                        # Distance du tampon 
+                        self.addParameter(
+                            QgsProcessingParameterDistance(
+                                'BUFFERDIST2',
+                                self.tr('Distance du tampon'),
+                                defaultValue = 1000.0,
+                                # Make distance units match the INPUT layer units:
+                                parentParameterName='METRO'
+                            )
+                        )
+                        
+                        # Données superposées PISCINES
+                        self.addParameter(
+                            QgsProcessingParameterFeatureSource(
+                                self.PISCINES,
+                                self.tr('Couche sur laquelle sera faite le tampon'),
+                                [QgsProcessing.TypeVectorAnyGeometry]
+                            )
+                        )
+                            
+                        # Distance du tampon
+                        self.addParameter(
+                            QgsProcessingParameterDistance(
+                                'BUFFERDIST3',
+                                self.tr('Distance du tampon'),
+                                defaultValue = 1000.0,
+                                # Make distance units match the INPUT layer units:
+                                parentParameterName='PISCINES'
+                            )
+                        )
+                        # Données superposées ESPACES_VERTS
+                        self.addParameter(
+                            QgsProcessingParameterFeatureSource(
+                                self.ESPACES_VERTS,
+                                self.tr('Couche sur laquelle sera faite le tampon'),
+                                [QgsProcessing.TypeVectorAnyGeometry]
+                            )
+                        )
+                            
+                        # Distance du tampon
+                        self.addParameter(
+                            QgsProcessingParameterDistance(
+                                'BUFFERDIST4',
+                                self.tr('Distance du tampon'),
+                                defaultValue = 1000.0,
+                                # Make distance units match the INPUT layer units:
+                                parentParameterName='ESPACES_VERTS'
+                            )
+                        )
+                        # Récupération de la destination.
+                        self.addParameter(
+                            QgsProcessingParameterVectorDestination(
+                                self.OUTPUT,
+                                self.tr('Sortie')
+                            )
+                        )
+
+                    def processAlgorithm(self, parameters, context, feedback):
+                        """
+                        Here is where the processing itself takes place.
+                        """
+
+                        # récupération des paramètres
+                        source = self.parameterAsSource(parameters, self.SOURCE, context)
+                        superposition = self.parameterAsSource(parameters, self.SUPERPOSITION, context)
+                        outputFile = self.parameterAsOutputLayer(parameters,self.OUTPUT, context)
+                        bufferdist = self.parameterAsDouble(parameters, 'BUFFERDIST', context)
+
+                        # Vérification qu'il y a bien deux couches en entrée
+                        # des erreurs sont levées si une couche est manquante
+                        if source is None:
+                            raise QgsProcessingException(self.invalidSourceError(parameters, self.SOURCE))
+                        if superposition is None:
+                            raise QgsProcessingException(self.invalidSourceError(parameters, self.SUPERPOSITION))
+
+                        # Il est possible d'afficher des informations
+                        # à destination de l'utilisateur
+                        feedback.pushInfo('Source CRS is {}'.format(source.sourceCrs().authid()))
+                        feedback.pushInfo('Superposition CRS is {}'.format(superposition.sourceCrs().authid()))
+
+                        # Vérification que les couches ont un SRC compatibles
+                        if source.sourceCrs().authid() != superposition.sourceCrs().authid():
+                            # Si SRC différents, QGIS lève une exception et arrête l'algorithme.
+                            raise QgsProcessingException(
+                                    self.tr('les couches doivent être dans le même système de référence de coordonnées.')
+                                    )
+                                    
+                        # Calcul du tampon            
+                        tampon = processing.run(
+                            "native:buffer",{
+                                'INPUT': parameters['SUPERPOSITION'],
+                                'DISTANCE' : bufferdist,
+                                'SEGMENTS' :5,
+                                'END CAP STYLE' : 0,
+                                'JOIN STYLE': 0,
+                                'MITER LIMIT' :2,
+                                'DISSOLVE' : False,
+                                'OUTPUT' : 'TEMPORARY_OUTPUT'
+                                },
+                            context=context,
+                            feedback=feedback)
+                            
+                        ## Intersection du tampon et de la couche source
+                        intersection = processing.run(
+                                "native:intersection", 
+                                {'INPUT': parameters['SOURCE'],
+                                'OVERLAY': tampon['OUTPUT'],
+                                'INPUT_FIELDS':[],
+                                'OVERLAY_FIELDS':[],
+                                'OUTPUT':outputFile})['OUTPUT']
+
+                        #Intersection des métros et des gares 
+
+                        metro_gares = processing.run(
+                            "native:intersection", 
+                                {'INPUT':buffer_gares['OUTPUT'],
+                                'OVERLAY':buffer_metro['OUTPUT'],
+                                'INPUT_FIELDS':[],
+                                'OVERLAY_FIELDS':[],
+                                'OUTPUT':'TEMPORARY_OUTPUT'})['OUTPUT']
+
+                        Inters1 = "intersection metro gares ok"
+                        print(Inters1)
+                        # #Intersection précédente et les espaces verts
+
+                        metro_gares_espaces_verts = processing.run(
+                            "native:intersection", 
+                                {'INPUT':metro_gares,
+                                'OVERLAY':buffer_espaces_verts['OUTPUT'],
+                                'INPUT_FIELDS':[],
+                                'OVERLAY_FIELDS':[],
+                                'OUTPUT':'TEMPORARY_OUTPUT'})['OUTPUT']
+                        
+                        Inters2 = "intersection metro gares espces verts ok"
+                        print(Inters2)
+
+                        # #Intersection finale avec les piscines 
+
+                        metro_gares_espaces_verts_piscines = processing.run(
+                            "native:intersection", 
+                                {'INPUT':metro_gares_espaces_verts,
+                                'OVERLAY':buffer_piscines['OUTPUT'],
+                                'INPUT_FIELDS':[],
+                                'OVERLAY_FIELDS':[],
+                                'OUTPUT':'TEMPORARY_OUTPUT'})['OUTPUT']
+                        
+                        Inters3 = "intersection finale ok"
+                        print(Inters3)
+                        # Return the results of the algorithm. In this case our only result is
+                        # the intersection.
+                        return {self.OUTPUT: intersection}&gt;
+            </code></pre>
+                <p><strong>Lien :</strong> <a href="https://drive.google.com/file/d/1jh4UUrnsigszO7945RcVkK-t6DHF3qVZ/view?usp=drive_link">Voir le projet</a></p>
+<br>
+        <div class = "project">
+            <h3>Analyse d'image satellite</h3>
+        </div>
+            <div class="contenu">
+                <div class="project">
+                    <p><strong>Contexte :</strong>Cet exercice a été réalisé dans le cadre d'un partiel de télédétection, dans le but de valider les acquis et la maîtrise du logiciel ENVI. Il nous a été demandé de réaliser plusieurs compositions colorées et indices d'analyse.</p>
+                    <p><strong>Méthodologie :</strong>Les données utilisées pour ce projet proviennent d'une simple image Landsat 8 de la zone de Byron Bay, en Australie. Après avoir réalisé les masques d’eau et de mer, j'ai pu procéder aux calculs des indices et à la réalisation des différentes compositions colorées demandées.</p>
+                    <p><strong>Résultats :</strong></p>
+                        <div class="carousel">
+                            <button class="prev">&#10094;</button>
+                            <div class="carousel-images">
+                                <img src="image/Image_vraie_couleur.png" alt="Image 1" class="img1 active">
+                                <img src="image/Image_Landsat.png" alt="Image 2" class="img1">
+                                <img src="image/Image_spot.png" alt="Image 3" class="img1">
+                                <img src="image/Indice_de_cuirasse.png" alt="Image 4" class="img1">
+                                <img src="image/Indice_de_transparence.png" alt="Image 5" class="img1">
+                                <img src="image/Indice_NDVI.png" alt="Image 6" class="img1">
+                                <img src="image/Composition_combine_des_indices.png" alt="Image 7" class="img1">
+                            </div>
+                            <button class="next">&#10095;</button>
+                        </div>
+                    <p><strong>Lien :</strong> <a href="https://drive.google.com/drive/folders/1DaasVdiLdKk9C9p9DgQT_HEtdcu1QrIj?usp=drive_link">Voir le projet</a></p>
+                </div>
+            </div>
+    </section>
+
+    <section id="experiences">
+        <h2>Expériences et projets Professionnels / Académiques</h2>
+        <ul>
+            <li><strong>Emploi chez ENEDIS :</strong> En tant qu'<strong>alternant chef de Projet géomatique à la direction régionale de Paris</strong>, j'ai pris en main plusieurs projets. J'ai eu l’occasion de mener des <strong>analyses spatiale sur la charge des transformateurs des postes électriques</strong> de Paris dans le cas d'implantation de bornes de recharges de véhicules (IRVE). Également j'ai contribué à l'<strong>optimisation des programmes travaux notamment dans la planification et la réalisation</strong> de ces derniers pour centraliser les chantiers ayant des caractéristiques communes (proximité, ampleur, calendrier et temps de travaux). J'ai aussi amené l'expertise géomatique dans <strong>l'analyse de limites de concessions entre la ville de Paris et les autres concédants</strong>, j'ai du identifier et faire ressortir les réseaux intersectant sles limites et ayant des attributs spécifiques.</li>
+            <li><strong>Projet universitaire :</strong> Après <strong>deux années de licence en géographie et aménagement du territoire</strong>, je suis encours d'obtention d'une <strong>licence Professionnelle des Métier de la Protection et de la Gestion de l'environnement (nouvellement CTSIG)</strong> dispensé par l'université Paris 1 Panthéon Sorbonne et l'ENSG Géomatique. Je réalise cette dernière année MPGE de licence en alternance chez ENEDIS. Je suis à la <strong>recherche d'un master en géomatique</strong> afin d'enrichir mes compétences en analyse. Je suis particulièrement intéressé par le domaine des risques, car selon moi, la géomatique a beaucoup à apporter à ce secteur. Cependant, <strong>je reste également ouvert à d'autres domaines</strong>, même s'ils sont un peu moins liés aux risques. Un master en géomatique en alternance me permettrait d'approfondir ma maîtrise des outils géomatiques pour lesquels j'ai été formé jusqu'à présent. Ce serait aussi pour moi l'occasion de continuer à appliquer mes connaissances et apprentissages au sein d'ENEDIS, tout en apportant plus d'expertise dans mes analyses.</li>
+            <li><strong>Projet professionel :</strong> Après l’obtention de mon master, <strong>je souhaiterais travailler dans les domaines de la planification et de l’aménagement en région parisienne.</strong> Ces secteurs nécessitent une analyse approfondie de l’environnement urbain ainsi qu’une expertise poussée en géomatique. Je souhaiterais <strong>poursuivre mon parcours au sein d’ENEDIS</strong> et, par la suite, rejoindre EDF afin de contribuer à des projets d’envergure. Je sais que les projets intégrant la géomatique chez ENEDIS sont de plus en plus nombreux et qu’ils lient le réseau à son environnement. <strong>Un autre domaine qui m’intéresse est celui de la télédétection,</strong> notamment l’analyse via les images satellites. Ce sujet m’attire particulièrement, bien que je n’aie pas encore d’idée précise sur la branche vers laquelle me diriger. Les domaines où la télédétection est utilisée <strong>comme outil d’aide à la décision</strong> me semblent particulièrement intéressants.
+
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact & Réseaux</h2>
+        <p>Email : <a href="mailto:contact.bourdet.hugo@gmail.com">contact.bourdet.hugo@gmail.com</a></p>
+        <p>LinkedIn : <a href="https://fr.linkedin.com/in/hugo-bourdet-658566260">Hugo Bourdet</a></p>
+    </section>
+
+    <section id= "information">
+        <h2>Informations</h2>
+        <p>Ce site et cette page on été réalisés par mes soins à la main, le site restera actif et accessible jusqu'au 1er octobre 2025. Il est entièrement codé en PHP, CSS, et Javascript il s'agit d'un projet personel visant à mettre en pratique les compétences que j'ai acquises en developpement.</p>
+        <p>Certains projets réalisés sont soumis à des normes de confidentialités spécifiques, c'est le cas des projets ENEDIS ou d'un projet que j'ai pu réalisé pour les service domaniales de l'Etat. Je ne peux donc pas plus les présenter ou les faire figurer sur cette page. </p>    
+    </section>
+</main>
+</body>
+</html>

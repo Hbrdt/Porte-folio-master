@@ -1,0 +1,144 @@
+/* Style général */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Bandeau de navigation */
+.navigation {
+    background-color: #686868;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteneur principal du CV */
+main {
+    margin-top: 60px; /* Laisser de l'espace sous le bandeau de navigation */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-container {
+    display: grid;
+    grid-template-columns: 30% 70%; /* Deux colonnes de même taille */
+    grid-template-rows: 17.5% 82.5%; /* Deux lignes ajustées à la hauteur des sections */
+    gap: 5px; /* Espacement entre les sections */
+    background-color: white;
+    width: 210mm; /* Largeur du format A4 */
+    height: 297mm; /* Hauteur du format A4 */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Placement des sections */
+.entete {
+    grid-column: 1 / 2; /* Colonne 1 */
+    grid-row: 1 / 2; /* Ligne 1 */
+    background-color: bisque;
+    
+}
+
+.entete h1{
+    font-size: 27px;
+
+}
+
+.entete ul {
+    font-size: small;
+}
+
+.section-contact {
+    grid-column: 2 / 3; /* Colonne 2 */
+    grid-row: 1 / 2; /* Ligne 1 */
+    padding: 2px;
+    background-color: bisque;
+   
+}
+
+.section-contact h1 {
+    font-size: 40px;
+
+}
+
+.section-competences {
+    grid-column: 1 / 2; /* Colonne 1 */
+    grid-row: 2 / 3; /* Ligne 2 */
+    border-right: 2px solid #333;
+    padding-right: 2px;
+   
+}
+
+.section-education {
+    grid-column: 2 / 3; /* Colonne 2 */
+    grid-row: 2 / 3; /* Ligne 2 */
+    padding-left: 2px;
+    
+}
+
+.section-experience {
+    border-top: 2px solid #333;
+    font-size: 14px;
+}
+
+/*.cv-container h1, h2 {
+    margin: 0;
+    color: #333;
+}
+
+.cv-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-container ul li {
+    margin-bottom: 10px;
+}*/
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background-color: #f4f4f4;
+}
+
