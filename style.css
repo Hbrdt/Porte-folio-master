@@ -63,6 +63,7 @@ main {
     grid-column: 1 / 2; /* Colonne 1 */
     grid-row: 1 / 2; /* Ligne 1 */
     background-color: #213f77;
+    color: fffefe;
     
 }
 
@@ -80,6 +81,7 @@ main {
     grid-row: 1 / 2; /* Ligne 1 */
     padding: 2px;
     background-color: #213f77;
+    color: fffefe;
    
 }
 
@@ -107,21 +109,6 @@ main {
     border-top: 2px solid #333;
     font-size: 14px;
 }
-
-/*.cv-container h1, h2 {
-    margin: 0;
-    color: #333;
-}
-
-.cv-container ul {
-    list-style: none;
-    padding: 0;
-}
-
-.cv-container ul li {
-    margin-bottom: 10px;
-}*/
-
 
 table {
     width: 100%;
