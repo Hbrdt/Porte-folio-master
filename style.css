@@ -68,7 +68,7 @@ main {
 .entete {
     grid-column: 1 / 2; /* Colonne 1 */
     grid-row: 1 / 2; /* Ligne 1 */
-    background-color: bisque;
+    background-color: #213f77;
     
 }
 
@@ -85,7 +85,7 @@ main {
     grid-column: 2 / 3; /* Colonne 2 */
     grid-row: 1 / 2; /* Ligne 1 */
     padding: 2px;
-    background-color: bisque;
+    background-color: #213f77;
    
 }
 
