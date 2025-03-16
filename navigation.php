@@ -7,7 +7,7 @@
 
     <nav>
         <ul>
-            <li><a href="accueil.php">Accueil</a></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="Portfolio.php">PortFolio</a></li>
             <li><a href="CV.php">CV</a></li>
         </ul>
